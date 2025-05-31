@@ -8,7 +8,7 @@ const adventures = [
     title: 'Dragons of Stormwreck Isle',
     image: 'https://res.cloudinary.com/dvd8xmfzl/image/upload/v1748713964/6575d7e5-22c1-403a-9c30-f99c32760984.png',
     summary: 'Waves crash as dragons clash.',
-    link: '/adventures/stormwreck',
+    link: '/adventures/stormwreck/chapters',
     status: 'Completed',
   },
   {

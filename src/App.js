@@ -7,6 +7,7 @@ import StormwreckOverview from './pages/StormwreckOverview';
 import StormwreckChapters from './pages/StormwreckChapters';
 import StormwreckCharacters from './pages/StormwreckCharacters';
 import HomePage from './pages/HomePage';
+import IcewindDale from './pages/adventures/IcewindDale';
 
 
 console.log("HomePage is:", HomePage);
@@ -26,6 +27,7 @@ function App() {
         <Route path="/adventures/stormwreck/overview" element={<StormwreckOverview />} />
         <Route path="/adventures/stormwreck/chapters" element={<StormwreckChapters />} />
         <Route path="/adventures/stormwreck/characters" element={<StormwreckCharacters />} /> 
+        <Route path="/adventures/icewinddale" element={<IcewindDale />} />
       </Routes>
     </Router>
   );
