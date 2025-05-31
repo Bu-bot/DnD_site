@@ -65,13 +65,13 @@ function StormwreckChapters() {
           <p className="mb-4">{ch.summary}</p>
 
           {ch.images && ch.images.length > 0 && (
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 mb-4">
               {ch.images.map((url, i) => (
                 <img
                   key={i}
                   src={url}
                   alt={`${ch.title} image ${i + 1}`}
-                  className="rounded w-full h-auto max-h-48 sm:max-h-64 object-cover cursor-pointer"
+                  className="rounded w-full h-auto max-h-36 sm:max-h-48 lg:max-h-64 object-cover cursor-pointer"
                   onClick={() => openLightbox(ch.images, i)}
                 />
               ))}
