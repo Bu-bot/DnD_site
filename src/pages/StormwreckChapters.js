@@ -71,7 +71,7 @@ function StormwreckChapters() {
                   key={i}
                   src={url}
                   alt={`${ch.title} image ${i + 1}`}
-                  className="rounded w-full max-h-64 object-cover cursor-pointer"
+                  className="rounded w-full h-auto max-h-48 sm:max-h-64 object-cover cursor-pointer"
                   onClick={() => openLightbox(ch.images, i)}
                 />
               ))}
