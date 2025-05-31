@@ -112,17 +112,7 @@ function StormwreckChapters() {
               ))}
             </div>
           )}
-
-          {ch.npcs.length > 0 && (
-            <div className="mt-2">
-              <h4 className="font-semibold mb-1">🧍 Key NPCs:</h4>
-              <ul className="list-disc pl-5">
-                {ch.npcs.map((npc, i) => (
-                  <li key={i}>{npc}</li>
-                ))}
-              </ul>
-            </div>
-          )}
+       
         </div>
       ))}
 
