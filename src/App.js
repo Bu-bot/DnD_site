@@ -6,20 +6,12 @@ import StormwreckDashboard from './pages/StormwreckDashboard';
 import StormwreckOverview from './pages/StormwreckOverview';
 import StormwreckChapters from './pages/StormwreckChapters';
 import StormwreckCharacters from './pages/StormwreckCharacters';
+import HomePage from './pages/HomePage';
 
-function HomePage() {
-  return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4">🧙 Welcome to Our D&D Group</h1>
-      <p className="mb-2">Explore your past and current campaigns.</p>
-      <nav className="space-x-4">
-        <Link to="/adventures" className="text-blue-600 underline text-xl">
-          View Adventures
-        </Link>
-      </nav>
-    </div>
-  );
-}
+
+console.log("HomePage is:", HomePage);
+
+
 
 function App() {
   return (
